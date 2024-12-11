@@ -1,6 +1,11 @@
+/* BOILERPLATE */
+* {
+    margin: 0;
+}
 /* General default styles */
 a {
     text-decoration: none;
+    color: rgba(61, 61, 63, 1);
 }
 .br {
     border: 2px solid red;
@@ -21,6 +26,7 @@ textarea {
 .btn-color {
     background-color: rgba(243, 95, 47, 0.75);
     color: azure;
+    border-radius: 5px;
 }
 /* We started typing main styles! */
 /* Biz asosiy stillarni boshladik */
@@ -156,16 +162,16 @@ textarea {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-.card-position {
+/* .card-position {
     margin-top: -115px;
-}
+} */
 .apps-box {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
-.member-name {
+/* .member-name {
     font-family: "DM Sans";
     font-size: 18px;
     font-weight: 500;
@@ -173,8 +179,8 @@ textarea {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-}
-.member-job {
+} */
+/* .member-job {
     font-family: "DM Sans";
     font-size: 14px;
     font-weight: 400;
@@ -182,7 +188,7 @@ textarea {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-}
+} */
 /* Section-6 */
 .section-6 h3 {
     font-family: "DM Sans", sans-serif;
@@ -235,4 +241,29 @@ p {
 /*  Last styles*/
 .links a:hover {
     color: rgb(238, 82, 82);
+}
+/* Card created */
+.card-custom {
+    border: 2px solid rgba(238, 239, 241, 1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 17px 6px 37px 8px;
+}
+.card_img {
+    width: 240px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid rgba(238, 239, 241, 1);
+    overflow: hidden;
+}
+.card_img img {
+    margin-top: -15px;
+}
+.card-tittle {
+    padding-top: 18px;
+}
+.card-description {
+    text-align: center;
+}
+.btn {
 }
