@@ -1,7 +1,17 @@
-/* Not important styles */
+/* General default styles */
+a {
+    text-decoration: none;
+}
 .br {
     border: 2px solid red;
 }
+input {
+    outline: none;
+}
+textarea {
+    resize: none;
+}
+/*  /General default styles */
 /* box */
 .box {
     width: 60%;
